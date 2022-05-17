@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Recherche textuelle (Boyer-Moore)</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div>
+        <h1>Algorithme de Boyer-Moore</h1>
+        <h1>version 2</h1>
+        <h2>Le nombre de sauts dépend du nombre de caractères identiques.</h2>
+        <p id="alignHaut" class="no-margin">&nbsp;</p>
+        <p id="texte" class="no-margin"></p>
+        <p id="motif" class="no-margin"></p>
+        <p id="alignBas" class="no-margin">&nbsp;</p>
+        <table id="tableSaut"></table>
+        <input id="btn-prev" type="button" value="<" class="nav"/>
+        <input type="range" id="index" min="0" max="11">
+        <input id="btn-next" type="button" value=">" class="nav"/>
+        <p class="centrer">Nombre de comparaisons : <span id="nbComparaisons"></span></p>
+        <p>
+            <label for="changeTexte">Texte :</label>
+            <input type="texte" id="changeTexte"/>
+        </p>
+        <p>
+            <label for="changeMotif">Motif :</label>
+            <input type="texte" id="changeMotif"/>
+        </p>
+        <input type="button" value="changer le texte et le motif" id="btnChange"/>
+    </div>
+    <script language="javascript" src="commun.js"></script>
+    <script language="javascript" src="version2.js"></script>
+</body>
+</html>
+

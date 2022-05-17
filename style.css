@@ -1,0 +1,56 @@
+body {
+    font-family: monospace;
+    font-size: 12pt;
+    background-color: white;
+    text-align: center
+}
+
+input[type=button].nav {
+    height: 40px;
+    font-size: 16pt;
+}
+
+input[type=range] {
+    width: 300px;
+}
+
+div {
+    display: inline-block;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+p {
+    text-align: left;
+}
+
+.centrer {
+    text-align: center;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.vert {
+    background-color: lightgreen;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+
+td, th {
+    border: 1px solid blue;
+    padding: 5px;
+}
